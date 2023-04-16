@@ -1,0 +1,168 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image-book {
+    background-image: url('../../picture/images/highRes/l_normal_none.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% calc(0% + 2.5rem);
+}
+
+@media (min-width: 1024px) {
+    .bg-image-book {
+        background-image: url('../../picture/images/highRes/198713044_l_flip.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+.bg-image-blur {
+    background-image: url('../../picture/svg/blurry-gradient-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg-image-wave {
+    background-image: url('../../picture/svg/layered-waves-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    background-color: rgb(0 18 32);
+}
+.bg-image-login {
+    background-image: url('../../picture/svg/reading_0re1.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.w-mul {
+    width: calc(100% + 20rem);
+}
+.h-complete-screen {
+    height: calc(100vh - 3rem);
+}
+.h-complete {
+    height: calc(100% - 3rem);
+}
+.hover\:w-mul:hover {
+    width: calc(100% + 23rem);
+}
+.hover\:card-expand:hover > :first-child {
+    @apply first:w-44;
+}
+.hover\:right-side-card:hover {
+    margin-left: -23rem;
+}
+.btn-show {
+    background-image: url('../../picture/svg/eye-regular.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.btn-hide {
+    background-image: url('../../picture/svg/eye-slash-regular.svg');
+    background-repeat: no-repeat;
+    background-size: 105%;
+}
+.btn-email {
+    background-image: url('../../picture/svg/envelope-regular.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.btn-user {
+    background-image: url('../../picture/svg/user-regular.svg');
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.profile {
+    background-image: url('../../picture/svg/circle-user-solid.svg');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 0px 0px -10px 0px;
+}
+
+.btn-search {
+    background-image: url('../../picture/svg/magnifying-glass-solid.svg');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: bottom;
+}
+.bg-color-gradient {
+    background: rgb(123, 58, 180);
+    background: linear-gradient(
+        98deg,
+        rgba(123, 58, 180, 1) 0%,
+        rgba(29, 82, 253, 1) 46%,
+        rgba(69, 252, 164, 1) 100%
+    );
+    background-repeat: no-repeat;
+}
+.bg-color-gradient-admin {
+    background: rgb(180, 58, 101);
+    background: linear-gradient(
+        113deg,
+        rgba(180, 58, 101, 1) 0%,
+        rgba(123, 58, 180, 1) 32%,
+        rgba(29, 82, 253, 1) 67%,
+        rgba(69, 252, 164, 1) 100%
+    );
+    background-repeat: no-repeat;
+}
+.image-max-height {
+    max-height: 447px;
+}
+.custom-scroll::-webkit-scrollbar {
+    @apply w-2 h-2;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+    @apply bg-slate-600 rounded-full;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-800;
+}
+.custom-scroll::-webkit-scrollbar-track {
+    @apply my-1;
+}
+.min-h-40{
+    min-width: 10rem;
+}
+.svg-cancel {
+    fill: #f97316;
+    stroke: black;
+}
+.svg-cancel:hover {
+    fill: #fb923c;
+    stroke: black;
+}
+.svg-accept {
+    fill: #22c55e;
+    stroke: black;
+}
+.svg-accept:hover {
+    fill: #4ade80;
+    stroke: black;
+}
+.svg-delete {
+    fill: #ef4444;
+    stroke: black;
+}
+.svg-delete:hover {
+    fill: #f87171;
+    stroke: black;
+}
+.svg-admin {
+    fill: #22c55e;
+}
+.svg-users {
+    fill: #2563eb;
+}
+.svg-notification {
+    fill: #2563eb;
+}
+.svg-queue {
+    fill: #2563eb;
+}
+.svg-complain {
+    fill: #2563eb;
+}
