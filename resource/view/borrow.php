@@ -43,7 +43,8 @@ include '../../app/handler/Borrow.show.php';
                             <div class="block ">
                                 <div class="gap-4 flex w-3/5">
                                     <label for="days" class="font-semibold">Days</label>
-                                    <input type="number" name="days" id="days" class="rounded border-2 border-blue-400 pl-2" min="1" max="10" />
+                                    <input type="number" name="days" id="days" class="rounded border-2 border-blue-400 
+                                    pl-2" min="1" max="10" required />
                                 </div>
                                 <i class="text-sm text-gray-600">You can only hold a book for maximum 10
                                     days at once

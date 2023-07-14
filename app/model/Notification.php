@@ -8,7 +8,7 @@ class Notification extends MysqlDB
 {
     protected function saveNotification($msg, $msgTo, $msgFrom, $bookId, $type)
     {
-            $sql = "INSERT INTO `notification` (`msg`, `msgTo`, `msgFrom`, `bookId`, `type`) 
+        $sql = "INSERT INTO `notification` (`msg`, `msgTo`, `msgFrom`, `bookId`, `type`) 
                     VALUES ('$msg', '$msgTo', '$msgFrom', '$bookId', '$type');";
         return mysqli_query($this->connect(), $sql);
     }

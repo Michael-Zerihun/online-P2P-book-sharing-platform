@@ -3,11 +3,11 @@
 use Util\Style;
 
 include '../../../app/config/autoLoaderForView.admin.php';
-        '../../../../app/config/autoLoaderForView.admin.php';
+'../../../../app/config/autoLoaderForView.admin.php';
 ob_start();
 session_start();
-$index = '/projects/hcdv-6/resource/view/index.php';
-$borrow = '/projects/hcdv-6/resource/view/borrow.php';
+$index = '/projects/hcdv-7/resource/view/index.php';
+$borrow = '/projects/hcdv-7/resource/view/borrow.php';
 ?>
 
 <!DOCTYPE html>
